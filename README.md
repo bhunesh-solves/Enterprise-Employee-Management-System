@@ -46,7 +46,6 @@ Swagger is integrated directly into the application for easy endpoint testing an
 
 After launching locally, navigate to:
 
-```sh
 https://localhost:5001/swagger
 
 This provides a complete API testing interface for validating endpoints and future integrations.
@@ -64,5 +63,49 @@ To run this project locally, install:
 
 ### Clone the repository:
 
-```sh
 git clone <repository-url>
+
+### Navigate to the project root:
+
+cd src/EmployeeManager/
+
+## Client Setup
+
+cd client  
+npm install  
+npm install -g @angular/cli @angular/core
+
+## Server Setup
+
+cd server  
+dotnet restore
+
+## Running the Project
+
+### Frontend
+
+ng build --prod
+
+### Backend
+
+dotnet run
+
+## Open in Browser
+
+https://localhost:5001
+
+## Future Enhancements
+
+- Authorization and Authentication  
+- Employee Search by Name  
+- Role-Based Access Control  
+- Dashboard Analytics  
+- ERP-style Workflow Expansion  
+
+## Project Highlights
+
+- Enterprise-style architecture simulation  
+- Clean separation of concerns  
+- Maintainable DTO-based backend  
+- Full-stack integration  
+- Scalable business application design  
